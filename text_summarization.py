@@ -1,7 +1,7 @@
 from openai import OpenAI
 
 client = OpenAI(
-  api_key="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"
+  api_key="your_api_key"
 )
 chat_transcript = """Agent: Hello! Thank you for contacting TechWorld Support. My name is Alex. How can I help you today?
 Customer: Hi Alex, I'm having trouble logging into my account. It says "invalid password" even though I'm sure it's correct.
