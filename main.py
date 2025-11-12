@@ -1,7 +1,7 @@
 from ai import OpenAI
 
 client = OpenAI(
-  api_key="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"
+  api_key="your_api_key"
 )
 
 completion = client.chat.completions.create(
